@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import com.soft1841.google.MyTextFeild?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.google.GoogleController">
+    <ImageView AnchorPane.leftAnchor="788" AnchorPane.topAnchor="300">
+        <Image url="/img/Google logo.png"/>
+    </ImageView>
+    <MyTextFeild AnchorPane.topAnchor="440" AnchorPane.leftAnchor="610" text="搜索Google或输入网址"/>
+    <ImageView AnchorPane.rightAnchor="615" AnchorPane.topAnchor="448">
+        <Image url="/img/icon_ voice.png"/>
+    </ImageView>
+    <ImageView AnchorPane.leftAnchor="625" AnchorPane.topAnchor="700">
+        <Image url="/img/github.png"/>
+    </ImageView>
+    <ImageView AnchorPane.leftAnchor="775" AnchorPane.topAnchor="700">
+        <Image url="/img/niconico.png"/>
+    </ImageView>
+    <ImageView AnchorPane.leftAnchor="925" AnchorPane.topAnchor="700">
+        <Image url="/img/youtube.png"/>
+    </ImageView>
+    <ImageView AnchorPane.leftAnchor="1075" AnchorPane.topAnchor="700">
+        <Image url="/img/pixiv.png"/>
+    </ImageView>
+    <ImageView AnchorPane.leftAnchor="1225" AnchorPane.topAnchor="700">
+        <Image url="/img/bilibili.png"/>
+    </ImageView>
+
+
+</AnchorPane>
